@@ -1,0 +1,112 @@
+.container {
+  background-color: #C1A8F1;
+  max-width: 1000px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#twitch-logo {
+  background-color: #C1A8F1;
+  height: 100%;
+}
+
+#twitch-logo img {
+  padding: 15px 0;
+}
+
+#buttons {
+  margin-bottom: 25px;
+  background-color: #C1A8F1;
+  height: 100%;
+}
+
+#buttons div {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#buttons button {
+  width: 90%;
+  background-color: #6441A5;
+  color: #fff;
+  border: none;
+}
+
+#buttons button:hover {
+  background-color: #452D72;
+  border: none;
+}
+
+#buttons button:focus {
+  outline: 0;
+}
+
+/*#buttons button:active {
+  background-color: #925FF1;
+}*/
+
+.row {
+  background-color: #6441A5;
+  margin: 10px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.row:hover {
+  background-color: #452D72;
+}
+
+#logo img {
+  border-radius: 10%;
+  max-width: 75px;
+}
+
+#name, #desc {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#footer {
+  color: #6441A5;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#footer a {
+  color: #6441A5;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  #name, #desc {
+    height: 37px;
+    line-height: 37px;
+  }
+  .container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  #name, #desc {
+    height: 75px;
+    line-height: 75px;
+  }
+}
+
+@media (max-width: 991px) {
+  #twitch-logo img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  #twitch-logo img {
+    max-width: 750px;
+  }
+}
